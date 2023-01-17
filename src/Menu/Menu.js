@@ -11,28 +11,45 @@ import tapis from "../Images/tapis.jpg";
 import fauteuil from "../Images/fauteuil.jpg";
 
 function Menu() {
-  const liste_image = [
-    swim,
-    massage,
-    run,
-    tour,
-    cuisine,
-    sac,
-    chemin,
-    tapis,
-    fauteuil,
-  ];
+  const liste_image = [swim, massage, run];
+  const liste2 = [tour, cuisine, sac];
+  const list3 = [chemin, tapis, fauteuil];
   return (
     <div>
       <div className="titre_menu">
         <h1> FOR ALL TASTES AND ALL DESIRES</h1>
         <hr className="barre_menu" />
       </div>
-      <div className="menu">
+      <section className="menu">
         {liste_image.map((image) => {
-          return <img className="test" src={image} alt="" />;
+          return (
+            <button
+              className="imagemenu"
+              style={{ backgroundImage: `url(${image})` }}
+            ><div className="textofimage">TEST</div></button>
+          );
         })}
-      </div>
+      </section>
+      <section className="menu">
+        {liste2.map((image) => {
+          return (
+            <button
+              className="imagemenu"
+              style={{ backgroundImage: `url(${image})` }}
+            ><div className="textofimage">TEST</div></button>
+          );
+        })}
+      </section>
+      <section className="menu">
+        {list3.map((image) => {
+          return (
+            <button
+              className="imagemenu"
+              style={{ backgroundImage: `url(${image})` }}
+            ><div className="textofimage">TEST</div></button>
+          );
+        })}
+      </section>
     </div>
   );
 }

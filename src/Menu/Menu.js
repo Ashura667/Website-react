@@ -20,36 +20,50 @@ function Menu() {
         <h1> FOR ALL TASTES AND ALL DESIRES</h1>
         <hr className="barre_menu" />
       </div>
+      <div className="parent_menu">
       <section className="menu">
         {liste_image.map((image) => {
           return (
             <button
               className="imagemenu"
               style={{ backgroundImage: `url(${image})` }}
-            ><div className="textofimage">TEST</div></button>
+            >
+              <div className="backdrop"></div>
+              <div className="contenu_text">TEST</div>
+              <div className="underline_text"></div>
+            </button>
           );
         })}
       </section>
       <section className="menu">
-        {liste2.map((image) => {
+      {liste2.map((image) => {
           return (
             <button
               className="imagemenu"
               style={{ backgroundImage: `url(${image})` }}
-            ><div className="textofimage">TEST</div></button>
+            >
+              <div className="backdrop"></div>
+              <div className="contenu_text">TEST</div>
+              <div className="underline_text"></div>
+            </button>
           );
         })}
       </section>
       <section className="menu">
-        {list3.map((image) => {
+      {list3.map((image) => {
           return (
             <button
               className="imagemenu"
               style={{ backgroundImage: `url(${image})` }}
-            ><div className="textofimage">TEST</div></button>
+            >
+              <div className="backdrop"></div>
+              <div className="contenu_text">TEST</div>
+              <div className="underline_text"></div>
+            </button>
           );
         })}
       </section>
+      </div>
     </div>
   );
 }

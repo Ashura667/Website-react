@@ -1,8 +1,0 @@
-{liste_image.map((image) => {
-          return (
-            <div
-              style={{ backgroundImage: `url(${image})` }}
-              className="img_menu"
-            >
-              <div className="tesaas">Button</div>
-            </div>

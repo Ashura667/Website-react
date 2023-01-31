@@ -30,10 +30,11 @@ function First_Part()
       ];
       return (
         
-        <div className="div_carousel">
-            <div className="titre_menu">
+        <div className="div_footer_carousel">
+            <div className="titre_footer_menu">
         <h1> HOW IT WORKS</h1>
-        <hr className="barre_menu" />
+        <hr className="barre_footer_menu" />
+        
       </div>
           <div className="all_carousel">
             
@@ -45,10 +46,15 @@ function First_Part()
                     title={element.title}
                     description={element.description}
                   />
+                  
                 </div>
+                
               );
             })}
+
           </div>
+                <div className='tefdsfds'>          <button className="button_register2">get started</button>
+</div>
         </div>
       );
 }

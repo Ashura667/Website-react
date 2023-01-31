@@ -53,7 +53,7 @@ function First_Part()
             })}
 
           </div>
-                <div className='tefdsfds'>          <button className="button_register2">get started</button>
+                <div className='centering_button'>          <button className="button_register2">get started</button>
 </div>
         </div>
       );

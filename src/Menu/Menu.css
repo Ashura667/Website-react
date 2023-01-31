@@ -93,7 +93,9 @@ position: absolute;
 .imagemenu:hover .underline_text {
   background-color: transparent;
 }.imagemenu:hover .contenu_text {
+  padding: 10px;
+  margin: 0px;
   background-color: transparent;
-  border: 2px solid white;
+  border: 4px solid white;
 
 }

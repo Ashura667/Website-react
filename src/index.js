@@ -6,6 +6,7 @@ import './reset.css'
 import Background from './Navbar/Background';
 import Carousel from './Carousel/Carousel';
 import Menu from './Menu/Menu';
+import First_part from './Footer/First_Part/First_part'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ root.render(
     <div className='all_element'><Carousel /></div>
     
     <Menu />
+    <First_part />
   </React.StrictMode>
 );
 

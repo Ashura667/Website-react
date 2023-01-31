@@ -10,7 +10,6 @@ function Carousel() {
     {
       photo: img1,
       title: "THE BEST LUXURY HOTELS",
-      description: "THE BEST LUXURY HOTELS",
       description:
         "From the latest trendy boutique hotel to the iconic palace with XXL pool, go for a mini-vacation just a few subway stops away from your home.",
     },
